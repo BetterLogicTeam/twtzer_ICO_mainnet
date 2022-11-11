@@ -1,0 +1,39 @@
+.title_small {
+    font-size: 12px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: #5842bc;
+    
+}
+h2 span , .fonticon {
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+    /* background-image: -webkit-gradient(linear, left top, right top, from(#501e9c), color-stop(30%, #8169f1), color-stop(30%, #8169f1), color-stop(73%, #a44cee), to(#ff847f)); */
+    background-image: -webkit-linear-gradient(left, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%)!important;
+    background-image: -o-linear-gradient(left, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%)!important;
+    background-image: linear-gradient(to right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%)!important;
+}
+.features-card .icon {
+    width: 125px;
+    height: 125px;
+    display: block;
+    margin: 0 auto 30px;
+    position: relative;
+}
+.features .img-circle {
+    position: absolute;
+    top: 60pc;
+    width: 60%;
+    left: 18%;
+    max-height: unset;
+    -webkit-animation: mymoves 2s linear infinite;
+    animation: mymoves 19s linear infinite;
+}
+
+  
+  @keyframes mymoves {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+    
+  }
+  

@@ -1,0 +1,33 @@
+.style-text{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+}
+.text{
+    color: #666;
+    font-size: 15px;
+}
+.bg-blue4{
+    background-color: #5842bc;
+}
+.color-blue4{
+    color: #5842bc;
+    
+}
+.bg-gray{
+    background-color: #eef4f8;
+}
+.wave{
+    animation-name: wave;
+    transition: 20s;
+}
+@keyframes wave {
+    0% {
+      transform: rotate(  0.0deg ) }
+   
+    50% {
+      transform: rotate( -1.0deg ) }
+  
+    100% {
+      transform: rotate(  0.0deg ) }
+  }

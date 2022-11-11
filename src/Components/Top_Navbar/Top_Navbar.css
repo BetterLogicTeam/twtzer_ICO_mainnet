@@ -1,0 +1,15 @@
+.top-navbar{
+    background-image: url(../Img/top_nav_s4.png) !important;
+    background-size: cover;
+    background-position: top;
+    padding: 10px 15px 50px;
+    text-align: center;
+    
+}
+.fs-10px{
+    font-size: 10px;
+}
+
+.buy{
+    cursor: pointer;
+}

@@ -1,0 +1,63 @@
+
+.d-flex-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: small;
+  font-weight: bold;
+}
+@media only screen and (max-width:400px) {
+    .d-flex-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr  ;
+        text-decoration: none;
+        list-style: none;
+    } 
+}
+
+.style-4{
+    background-color: transparent;
+}
+ footer .wave {
+  position: absolute;
+  left: -1%;
+  bottom: 0%;
+  width: 100%;
+  max-width: unset;
+  height: 240px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: top;
+  object-position: top;
+  z-index: -1;
+  animation: wave 2s ease-in-out infinite alternate both;
+}
+
+
+
+
+.wave:nth-of-type(2) {
+  top: -175px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) .125s infinite, swell 7s ease 1.25s infinite;
+  opacity: 1;
+}
+
+@keyframes wave {
+  0% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: -160px;
+  }
+}
+
+@keyframes swell {
+  0%, 100% {
+    transform: translate3d(0,-25px,0);
+  }
+  50% {
+    transform: translate3d(0,5px,0);
+  }
+}

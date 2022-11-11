@@ -1,0 +1,42 @@
+.testi-card .text {
+    font-size: 24px;
+    text-align: center;
+    
+}
+
+.join_twtz{
+    background-color: rgba(247, 247, 247, 0.729);
+    height: 35pc;
+}
+.testi_quot{
+   
+   z-index: -1!important;
+}
+.two-boy {
+    animation: MoveUpDown 3s  infinite;
+    position: relative;
+    top: -19pc;
+  }
+  img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50px); }
+}
+
+@media screen and (max-width:800px){
+    .testi-card .text{
+        margin: 60px 0px;
+        font-size: 14px;
+    }
+}
